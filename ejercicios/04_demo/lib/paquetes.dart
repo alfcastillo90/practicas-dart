@@ -31,7 +31,7 @@ void getReqResp_service() {
 
 void getPais() {
 
-  final url = Uri.parse('https://restcountries.eu/rest/v2/alpha/col');
+  final url = Uri.parse('https://restcountries.eu/rest/v2/alpha/ven');
   http.get(url).then( (res) {
     
     final col = paisFromJson( res.body );

@@ -13,4 +13,5 @@ environment:
 dev_dependencies:
   pedantic:
   test: ^1.5.0
+dependencies: 
   http: ^0.13.3
